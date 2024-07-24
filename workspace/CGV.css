@@ -1,12 +1,12 @@
 * {
   margin: 0 auto;
-  
+  /* text-align: center; */
 }
 
-.header2{
-
+/* .header2{
   width: 970px;
-}
+  
+} */
 
 .cgv-vanner {
   background-color: black;
@@ -14,9 +14,8 @@
   /* border: 0px;   */
   /* width: 970px; */
   height: 80px;
-  /* text-align: center; */
   text-align: center;
-  display: flex;
+  /* display: flex; */
 }
 
 .cgv-vanner-img{
@@ -53,30 +52,19 @@
 
 }
 
-.div-header-contents{
-  align-items: center;
-
-
+.div-header-logo-img{
+  width: 117px;
+  height: 53px;
 }
 
-nav {
-  height: 110px;
-  background-color: steelblue;
-  font-size: 20px;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-ul {
+.div-header-container{
+  width: 980px;
+  height: 112px;
+  margin: 0 auto;
   display: flex;
-  list-style-type: none;
+  padding: auto;
+
 }
 
-li {
-  /* border: 1px solid white; */
-  height: 50px;
-  line-height: 50px;
-  margin: 0 10px;
-}
 
 
