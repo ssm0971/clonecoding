@@ -3,45 +3,37 @@
   /* text-align: center; */
 }
 
-/* .header2{
-  width: 970px;
-  
-} */
-
 .cgv-vanner {
   background-color: black;
   /* position: relative; */
   /* border: 0px;   */
-  /* width: 970px; */
+  /* width: 980px; */
   height: 80px;
   text-align: center;
   /* display: flex; */
 }
 
+.cgv-vanner-size{
+  border: 2px solid red;
+  width: 980px;
+  height: 80px;
+  /* 두개의 요소가 가로로 정렬 */
+  display: flex;
+  text-align: center; 
+}
+
 .cgv-vanner-img{
-  /* border: 2px solid pink; */
-  /* width: 970px;
-  height: 80px; */
-  /* text-align: center; */
-  /* margin: auto; */
+  width: 100%;
   z-index: 1;
 
 }
 
 .cgv-vanner-close{
-  /* border: 1px solid pink; */
- /* position: absolute;
-  margin-top: 10px; 
-  margin-right: 20px; */
-
+  border: 1px solid pink;
   cursor: pointer;
-  z-index: 10;
-  /* text-align: center;
-  margin: auto; */
+  z-index: 2;
 
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  transform: translate(-30px , 10px);
 
 }
 
@@ -53,28 +45,135 @@
 }
 
 .div-header-logo-img{
+  border: 1px solid black;
   width: 117px;
-  height: 53px;
+  /* height: 100%; */
 }
 
 .div-header-container{
+  border: 1px solid pink;
   width: 980px;
-  height: 112px;
+  height: 65px;
   margin: 0 auto;
-  display: flex;
-  padding: auto;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  /* justify-content: space-between; */
+  /* padding: auto; */
 
 }
 
-.dif-footer-container{
+.div-logoandtext{
+  display: flex;
+  float: left;
+}
+
+.div-header-text{
+  border: 1px solid black;
+  height: 53px;
+  font-size: 18px;
+  line-height: 80px;
+}
+
+.ul-user-link-menu{
+  border: 1px solid black;
+  display: flex;
+
+  
+}
+
+.ul-user-link-menu li img {
+  width: 50%;
+}
+
+.ul-user-link-menu li{
+  font-size: 14px;
+  display: inline;
+  text-align: center;
+  list-style: none;
+   
+}
+
+.div-adandmenu{
+  border: 1px solid blue;
+  display: flex;
+  float: right;
+
+}
+
+.img-partner-ad{
+  width: 136px;
+  height: 39px;
+  padding-top: 10px;
+
+}
+
+.div-header-content{
+  border: 1px solid red;
+  width: 980px;
+  height: 50px;
+
+}
+
+.div-ul-mainmenu{
+  display: flex;
+  float: left;
+}
+
+.ul_mainmenu{
+  display: flex;
+  float: left;
+  padding: 5px 0;
+}
+
+.ul_mainmenu li{
+  margin: 10px 20px;
+  list-style: none; 
+
+}
+
+.ul_mainmenu a{
+  color: black;
+  text-decoration: none;
+}
+
+.div-search-inputbox{
+  display: flex;
+  float: right;
+  margin: 10px 20px;
+}
+
+.div-search-inputbox-img{
+  border: 1px solid black;
+  width: 26px;
+  height: 26px;
+}
+
+
+
+
+
+main{
+  height: 500px;
+}
+
+
+
+
+
+.div-footer-container{
   border: 1px solid black;
   width: 980px;
   height: 445px;
   /* display: flex; */
-  align-items: center;
-  margin: 0 auto;
+  margin: auto;
 
 }
+
+.div-footer-body{
+  border: 1px solid yellow;
+  height: 240px;
+}
+
 .div-footer-info{
   border: 1px solid black;
   height: 126px;
@@ -83,6 +182,37 @@
 
 .div-footer-nav-box{
   border: 1px solid black;
+  width: 100%;
   height: 66px;
+  font-size: 13px;
+  display: flex;
+  /* justify-content: space-between; */
 }
+
+.div-footer-nav-box ul{
+  list-style: none;
+  display: flex;
+  border: 1px solid black;
+  
+}
+
+.div-footer-nav-box ul li{
+  padding-left: 10px;
+  border: 1px solid pink;
+}
+
+.div-footer-nav-box ul li a{
+  text-decoration: none;
+  /* display: inline;
+
+  line-height: 10px; */
+}
+
+.div-footer-bgc{
+  background-color: gainsboro;
+  height: 446px;
+  width: 100%;
+}
+
+
 
