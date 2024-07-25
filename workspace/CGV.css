@@ -66,5 +66,23 @@
 
 }
 
+.dif-footer-container{
+  border: 1px solid black;
+  width: 980px;
+  height: 445px;
+  /* display: flex; */
+  align-items: center;
+  margin: 0 auto;
 
+}
+.div-footer-info{
+  border: 1px solid black;
+  height: 126px;
+  margin-bottom: 0;
+}
+
+.div-footer-nav-box{
+  border: 1px solid black;
+  height: 66px;
+}
 
