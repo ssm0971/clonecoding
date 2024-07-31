@@ -20,7 +20,7 @@ a {
 }
 
 .cgv-vanner-size {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 980px;
   height: 80px;
   margin: 0 auto;
@@ -36,7 +36,7 @@ a {
 }
 
 .cgv-vanner-close {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   width: 26px;
   height: 20px;
   cursor: pointer;
@@ -54,13 +54,13 @@ a {
 }
 
 .div-header-logo-img {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 117px;
   /* height: 100%; */
 }
 
 .div-header-container {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   width: 980px;
   height: 65px;
   margin: 0 auto;
@@ -85,14 +85,14 @@ a {
 }
 
 .div-header-text {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 53px;
   font-size: 18px;
   line-height: 80px;
 }
 
 .ul-user-link-menu {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
 
 
@@ -111,7 +111,7 @@ a {
 }
 
 .div-adandmenu {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   float: right;
 
@@ -125,9 +125,9 @@ a {
 }
 
 .div-header-content {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
-  width: 980px;
+  width: 982px;
   height: 50px;
 
 }
@@ -172,7 +172,7 @@ a {
 }
 
 .div-search-inputbox-img {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 26px;
   height: 26px;
 }
@@ -208,7 +208,7 @@ main {
 .div-main-box {
   max-width: 980px;
   margin: 0 auto;
-  display: flex;
+  /* display: flex; */
 }
 
 .div-main-vediobox-vedio {
@@ -245,9 +245,12 @@ main {
   height: 30px;
   /* float: left; */
   transform: translate(5px, -310px);
-  z-index: 4;
+  z-index: 1;
 
 }
+
+
+
 
 .div-main-vediobox-contents div {
   margin-right: 10px;
@@ -279,8 +282,10 @@ main {
 
 
 
+
+
 .div-main-moviechart-area {
-  background-color: crimson;
+  /* background-color: crimson; */
   margin: 0 auto;
 
   width: 980px;
@@ -288,7 +293,7 @@ main {
 }
 
 .div-main-moivechart-title {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding-top: 50px;
   display: flex;
   justify-content: space-between;
@@ -335,12 +340,12 @@ main {
   height: 16px;
   width: 12px;
   text-align: center;
+  position: relative;
 }
 
 .div-main-moviechart-arrow-box {
-  /* border: 1px solid black; */
   width: 980px;
-  /* height: 10px; */
+  /* height: 30px; */
   transform: translate(-15px, -200px);
 }
 
@@ -361,7 +366,7 @@ main {
   top: 9px;
   width: 10px;
   height: 15px;
-  z-index: 99;
+  z-index: 10;
 }
 
 .div-main-moviechart-arrow-img-rigth-rotate {
@@ -370,7 +375,7 @@ main {
   top: 9px;
   width: 10px;
   height: 15px;
-  z-index: 99;
+  z-index: 10;
 }
 
 .div-main-moviechart-arrow-img-right {
@@ -409,6 +414,8 @@ main {
 
 .div-main-moviechart-menu{
   display: flex;
+  width: 100%;
+  overflow: hidden;
 }
 
 .div-main-moviechart-menubox {
@@ -426,11 +433,11 @@ main {
 .div-main-moviechart-img{
   width: 170px;
   height: 250px;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .div-main-moviechart-border-img{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 10px;
   overflow: hidden;
   width: 170px;
@@ -438,8 +445,8 @@ main {
 }
 
 .div-main-moviechart-menu-textbox-top{
-  border: 1px solid pink;
-  margin: 5px 0px;
+  /* border: 1px solid pink; */
+  margin: 5px;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -456,15 +463,15 @@ main {
 
 .div-main-moivechart-menu-textbox-bottom-left{
   width: 57px;
-  height: 17px;
+  height: 20px;
   text-align: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .div-main-moivechart-menu-textbox-bottom-right{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 108px;
-  height: 17px;
+  height: 20px;
   text-align: center;
 }
 
@@ -491,11 +498,13 @@ main {
 
 
 .div-main-event {
-  background-color: blue;
+  /* background-color: blue; */
   margin: 0 auto;
   padding: 60px 0 6px;
   width: 980px;
   height: 330px;
+  /* position: relative;
+  z-index: 1; */
 }
 
 .div-main-event-title {
@@ -538,12 +547,13 @@ main {
   height: 16px;
   width: 12px;
   text-align: center;
+  position: relative;
 }
 
 .div-main-event-arrow-box {
   width: 980px;
   height: 30px;
-  transform: translate(-15px, 120px);
+  transform: translate(-15px, -180px);
 }
 
 
@@ -555,7 +565,6 @@ main {
   height: 40px;
   width: 40px;
   text-align: center;
-  z-index: 2;
 }
 
 .div-main-event-arrow-img-left-rotate {
@@ -564,6 +573,7 @@ main {
   top: 9px;
   width: 10px;
   height: 15px;
+  z-index: 10;
 }
 
 .div-main-event-arrow-img-rigth-rotate {
@@ -572,6 +582,7 @@ main {
   top: 9px;
   width: 10px;
   height: 15px;
+  z-index: 10;
 }
 
 .div-main-event-arrow-img-right {
@@ -583,7 +594,6 @@ main {
   height: 40px;
   width: 40px;
   text-align: center;
-  z-index: 2;
 }
 
 .div-main-event-area {
@@ -594,7 +604,8 @@ main {
 
 .div-main-contents {
   display: flex;
-  /* margin-left: -30px; */
+  margin-top: 20px;
+  overflow: hidden;
 }
 
 .div-main-contents-boxs {
@@ -617,6 +628,8 @@ main {
 
 .div-main-contents-img {
   width: 310px;
+  /* position: relative; */
+  /* z-index: 1; */
 }
 
 
@@ -632,7 +645,7 @@ main {
 
 
 .div-main-special {
-  background-color: cyan;
+  /* background-color: cyan; */
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 21px;
